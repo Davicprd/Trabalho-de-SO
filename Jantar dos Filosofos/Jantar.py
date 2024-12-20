@@ -4,7 +4,7 @@ import time
 
 N = 5  # Número de filósofos
 EXECUTIONS = 1000  # Número de execuções para verificar impasse
-IMPASSE_TENTATIVAS_MAX = 50  # Número máximo de tentativas antes de considerar impasse
+IMPASSE_TENTATIVAS_MAX = 10  # Número máximo de tentativas antes de considerar impasse
 impasse_ocorreu = False
 
 # Mutex para sincronizar o acesso aos garfos
