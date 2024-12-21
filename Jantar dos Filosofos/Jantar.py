@@ -43,6 +43,7 @@ def filosofo(id, execucoes):
 
             garfos[primeiro].acquire()
             garfos[segundo].acquire()
+            tentativas_sem_sucesso[id] = 0
 
         # Calcula o tempo de espera e acumula
         total_tempo_espera += time.time() - start_espera
